@@ -40,6 +40,7 @@ jobs:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
         with:
           command: test
+          args: backend
 
       - name: Run tests
         run: |
