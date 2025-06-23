@@ -25,6 +25,7 @@ jobs:
       - name: Run lint
         run: |
           cd backend
+          chmod +x ./node_modules/.bin/eslint
           npx eslint .
 
 
